@@ -7,7 +7,7 @@ spec:
   project: default
   destination:
     namespace: default
-    server: https://192.168.20.135:6443
+    server: <provide_your_k8s_cluster_url>
   source:
     path: astonvilla-app # you chould provide the folder in the git repo
     repoURL: "https://github.com/Melek-ElHajri/argocd.git" # the url of the github repository
